@@ -1,0 +1,22 @@
+
+{
+  "users": [
+    {
+      "name":"John Freddy Carreño",
+      "user" :"ChurroDevelop",
+      "aprendiz": true
+    },
+    {
+      "name":"John Becerra",
+      "user": "johnvanagandr",
+      "aprendiz": false
+    },
+  
+  {
+    "name":"Samuel David",
+    "user":"SamuelDavidRuedaSuarezADSO",
+    "aprendiz": true
+  }
+]
+}
+
