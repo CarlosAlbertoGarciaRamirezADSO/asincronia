@@ -13,8 +13,8 @@ let llamadoGeneral = function () {
             .then((usuariogit) => {//que va a recibir como parametro a el usuario
               return usuariogit.json();//retornamos al usuario y lo convertimos a json para poder utilizarlo
             })
-            .then((datosT) => {//cojemos a data que es el que nos muestra todos los datos en general
-              //console.log(data); 
+            .then((datosT) => {//cojemos a datosT que es el que nos muestra todos los datos en general
+              console.log(datosT) //mostramos todos los datos
               console.log(datosT.login, datosT.avatar_url)// ya que podemos ver todos los datos solo imprimimos el dato que queremos 
             })
         }
